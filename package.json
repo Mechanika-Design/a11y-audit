@@ -2,7 +2,7 @@
   "name": "bell-accessibility-audit",
   "version": "1.0.0",
   "description": "Automated Accessibility Audits for Websites",
-  "homepage": "https://github.com/wgalyen/accessibility-audit#readme",
+  "homepage": "https://github.com/bell-apps/accessibility-audit#readme",
   "license": "MIT",
   "main": "./bin/cli.js",
   "bin": {
