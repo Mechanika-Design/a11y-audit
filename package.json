@@ -9,9 +9,21 @@
     "a11y-audit": "./bin/cli.js"
   },
   "keywords": [
+    "a11y",
     "accessibility",
-    "analysis",
-    "report"
+    "cli",
+    "csv",
+    "html",
+    "json",
+    "markdown",
+    "report",
+    "screen capture",
+    "screenshot",
+    "Section508",
+    "WCAG2A",
+    "WCAG2AA",
+    "WCAG2AAA",
+    "xml"
   ],
   "contributors": [
     {
@@ -31,11 +43,14 @@
     "test": "eslint --ext .js ./ && echo '\n CODE PERFECTION !!!\n'"
   },
   "dependencies": {
+    "bluebird": "^3.5.5",
     "chalk": "^4.1.0",
-    "hogan.js": "^3.0.2",
+    "handlebars": "^4.7.7",
     "moment": "^2.29.1",
+    "open": "^8.0.4",
     "ora": "^5.4.0",
     "pa11y": "^5.3.0",
+    "prompt": "^1.1.0",
     "yargs": "^16.2.0"
   },
   "devDependencies": {
