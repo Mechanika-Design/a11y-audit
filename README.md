@@ -21,7 +21,7 @@ Developer Overview
 
 ### Commands
 
-* [`a11y-audit`](docs/cmd-a11y.md) - Detailed Examples of `a11y-audit` Usage
+* [`a11y-audit`](docs/cmd-options.md) - Detailed Examples of `a11y-audit` Usage
 * [`a11y-audit auth`](docs/cmd-auth.md) - Generate HTTP Authentication Tokens
 * [`a11y-audit help`](docs/cmd-help.md) - Get Help when you need it
 
