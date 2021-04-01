@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "./bin/cli.js",
   "bin": {
-    "a11y": "./bin/cli.js"
+    "a11y-audit": "./bin/cli.js"
   },
   "keywords": [
     "accessibility",
