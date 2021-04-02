@@ -11,7 +11,7 @@ Introduction
 A CLI tool that tests websites for Accessibility Issues and generates reports that can be assigned to developers.
 
 - [X] Support for Continuous Integration Testing
-- [X] Save Reports in CSV, HTML, JSON, Markdown & XML Formats
+- [X] Save Reports in CSV, HTML, Jira, JSON, Markdown & XML Formats
 - [X] Supports Page Automation using Actions
 - [X] Supports Testing Websites behind HTTP Authentication
 - [X] Reports provide Resource Links for Developers to Learn More about Accessibility
