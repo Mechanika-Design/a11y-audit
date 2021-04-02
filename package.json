@@ -2,7 +2,7 @@
   "name": "bell-accessibility-audit",
   "version": "1.1.0",
   "description": "Automated Accessibility Audits for Websites",
-  "homepage": "https://github.com/bell-apps/accessibility-audit#readme",
+  "homepage": "https://github.com/bell-lab-apps/accessibility-audit#readme",
   "license": "MIT",
   "main": "./bin/cli.js",
   "bin": {
@@ -35,10 +35,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bell-apps/accessibility-audit.git"
+    "url": "git+https://github.com/bell-lab-apps/accessibility-audit.git"
   },
   "bugs": {
-    "url": "https://github.com/bell-apps/accessibility-audit/issues"
+    "url": "https://github.com/bell-lab-apps/accessibility-audit/issues"
   },
   "scripts": {
     "test": "eslint --ext .js ./ && echo '\n CODE PERFECTION !!!\n'"

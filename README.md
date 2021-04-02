@@ -41,7 +41,7 @@ Install
 
 ```bash
 cd ~
-git clone https://github.com/bell-apps/accessibility-audit.git
+git clone https://github.com/bell-lab-apps/accessibility-audit.git
 cd accessibility-audit
 npm install -g
 a11y-audit help

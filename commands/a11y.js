@@ -55,8 +55,8 @@ const runTest = test => {
 const testResults = {
   generated: {
     date: moment().format('LLLL'),
-    label: 'Bell Apps - Accessibility Audit',
-    url: 'https://github.com/bell-apps/accessibility-audit'
+    label: 'Bell Lab - Accessibility Audit',
+    url: 'https://github.com/bell-lab-apps/accessibility-audit'
   },
   settings: {},
   total: {
