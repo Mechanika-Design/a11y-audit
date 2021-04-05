@@ -1,8 +1,8 @@
 {
-  "name": "bell-accessibility-audit",
+  "name": "a11y-audit",
   "version": "1.3.0",
   "description": "Automated Accessibility Audits for Websites",
-  "homepage": "https://github.com/bell-lab-apps/accessibility-audit#readme",
+  "homepage": "https://github.com/bell-lab-apps/a11y-audit#readme",
   "license": "MIT",
   "main": "./bin/cli.js",
   "bin": {

@@ -1,6 +1,6 @@
 ![Logo](docs/img/logo.png "Logo")
 
-Accessibility Audit
+A11y Audit
 ---
 
 > Command Line Interface for Automated Accessibility Auditing of Websites
@@ -41,8 +41,8 @@ Install
 
 ```bash
 cd ~
-git clone https://github.com/bell-lab-apps/accessibility-audit.git
-cd accessibility-audit
+git clone https://github.com/bell-lab-apps/a11y-audit.git
+cd a11y-audit
 npm install -g
 a11y-audit help
 ```

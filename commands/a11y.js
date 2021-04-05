@@ -55,8 +55,8 @@ const runTest = test => {
 const testResults = {
   generated: {
     date: moment().format('LLLL'),
-    label: 'Bell Lab - Accessibility Audit',
-    url: 'https://github.com/bell-lab-apps/accessibility-audit'
+    label: 'Bell Lab - A11y Audit',
+    url: 'https://github.com/bell-lab-apps/a11y-audit'
   },
   settings: {},
   total: {
@@ -85,7 +85,7 @@ module.exports = async options => {
       console.log('')
 
       // Start animating the loading spinner
-      const text = settings.tests.length === 1 ? 'Running Accessibility Audit' : `Running ${settings.tests.length} Accessibility Audits`
+      const text = settings.tests.length === 1 ? 'Running A11y Audit' : `Running ${settings.tests.length} A11y Audits`
       spinner.text = `${chalk.bold(text)}`.concat(`${chalk.grey(' [Ctrl-C to Cancel]')}\n`)
       spinner.start()
 
