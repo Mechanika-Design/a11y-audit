@@ -1,6 +1,6 @@
 {
   "name": "bell-accessibility-audit",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Automated Accessibility Audits for Websites",
   "homepage": "https://github.com/bell-lab-apps/accessibility-audit#readme",
   "license": "MIT",
@@ -44,19 +44,20 @@
     "test": "eslint --ext .js ./ && echo '\n CODE PERFECTION !!!\n'"
   },
   "dependencies": {
-    "bluebird": "^3.5.5",
-    "chalk": "^4.1.0",
-    "handlebars": "^4.7.7",
+    "bluebird": "^3.7.2",
+    "chalk": "^3.0.0",
+    "handlebars": "^4.7.3",
     "moment": "^2.29.1",
-    "open": "^8.0.4",
-    "ora": "^5.4.0",
+    "open": "^7.0.3",
+    "ora": "^4.0.3",
     "pa11y": "^5.3.0",
     "prompt": "^1.1.0",
-    "yargs": "^16.2.0"
+    "yargs": "^15.3.1"
   },
   "devDependencies": {
+    "archiver": "^3.1.1",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.23.0",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1"
   }
 }
