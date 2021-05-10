@@ -35,10 +35,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bell-lab-apps/accessibility-audit.git"
+    "url": "git+https://github.com/bell-lab-apps/a11y-audit.git"
   },
   "bugs": {
-    "url": "https://github.com/bell-lab-apps/accessibility-audit/issues"
+    "url": "https://github.com/bell-lab-apps/a11y-audit/issues"
   },
   "scripts": {
     "test": "eslint --ext .js ./ && echo '\n CODE PERFECTION !!!\n'"
