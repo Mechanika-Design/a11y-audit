@@ -11,6 +11,8 @@ const formatter = require('../lib/formatter')
 const parser = require('../lib/parser')
 const write = require('../lib/write')
 
+require('events').EventEmitter.defaultMaxListeners = 0;
+
 const spinner = ora()
 const logger = fn => {
   spinner.stop()
@@ -158,8 +160,8 @@ module.exports = async options => {
         // See if we have authentication we need to set
         if (typeof opts.auth === 'object' && typeof opts.auth.username === 'string' && typeof opts.auth.password === 'string') {
           // Create Basic Authentication from provided auth
-          const token = `${opts.auth.username}:${opts.auth.password}`
-          const encodedCredentials = new Buffer(credentials).toString('base64')
+          const credentials = `${opts.auth.username}:${opts.auth.password}`
+          const token = new Buffer(credentials).toString('base64')
 
           opts.headers = {
             'Authorization': `Basic ${token}`
